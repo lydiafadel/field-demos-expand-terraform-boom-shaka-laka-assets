@@ -1,50 +1,21 @@
-class: img-caption
-name: current-state
-## HashiCups Application, day 1
-
-![](images/aws-diagram.png)
-
-
-???
-BSK Inc. Bringing energy to your mornings through HashiCups.
-
-* BSK Inc. is using Terraform Cloud free tier for a number of years.
-* Why Terraform? -  to standardize HashiCups usage across the company.
-* Why Now? - to mitigate security vulnerability + to meet all of the compliance regulations and guidelines.
-
+name: AWS-Architecture
+# HashiCups Architecture
+.center[![:scale 65%](images/aws-diagram.png)]
+<br><br>
 ---
-class: img-caption
-name: end-state
-## HashiCups Application, day 2
-
-![](images/after.png)
-
-
-???
-Through Terraform Cloud for Business, BSK Inc. can meet its expanded needs:
-  * Ensure compliance with external standards.
-  * Protect data privacy and infrastructure integrity.
-  * Estimate the costs of the infrastructure that is provisioned with Terraform.
-  * Bring visibility into all events executed on Terraform with Audit Logging.
-  * Manage Terraform teams through Okta
-
+name: Traditional-App-Deployment
+# Current Process
+.center[![:scale 100%](images/after.png)]
+<br><br>
 ---
-
-name: policy
-class: img-caption
-
-## Policy Use Cases
-![](images/policy.png)
-
-
+name: Intro-to-IAC
+# Introduction to Infra-as-Code (IaC)
+.center[![:scale 100%](images/policy.png)]
+<br><br>
 ---
-
-name: agent
-class: img-caption
-
-## Value Proposition
-![](images/result.png)
-
-
+name: Business-Outcomes
+# Business Outcomes
+.center[![:scale 100%](images/result.png)]
+<br><br>
 
 
