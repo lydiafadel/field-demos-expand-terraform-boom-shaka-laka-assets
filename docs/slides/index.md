@@ -20,7 +20,7 @@ name: Business-Outcomes
 ---
 name: Splunk-Integration
 # Splunk Integration
-.center[![:scale 65%](images/splunk.png)]
+.center[![:scale 100%](images/splunk.png)]
 <br><br>
 
 
