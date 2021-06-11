@@ -11,9 +11,9 @@ import "decimal"
 
 # Monthly Limits
 limits = {
-  "dev": decimal.new(200),
-  "qa": decimal.new(500),
-  "prod": decimal.new(1000),
+  "dev": decimal.new(50),
+  "staging": decimal.new(100),
+  "prod": decimal.new(500),
 }
 
 # Call the validation function
