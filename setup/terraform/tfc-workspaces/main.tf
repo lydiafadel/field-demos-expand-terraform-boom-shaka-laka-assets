@@ -35,7 +35,7 @@ resource "tfe_workspace" "hashicups_stage" {
   # VCS Section
   vcs_repo {
     identifier = var.GITHUB_IDENTIFIER
-    branch = "stage"
+    branch = "staging"
     oauth_token_id     = tfe_oauth_client.test-oauth-client.oauth_token_id
   }
 }
@@ -51,7 +51,7 @@ resource "tfe_workspace" "hashicups_dev" {
   # VCS Section
   vcs_repo {
     identifier = var.GITHUB_IDENTIFIER
-    branch = "development"
+    branch = "dev"
     oauth_token_id     = tfe_oauth_client.test-oauth-client.oauth_token_id
   }
 }
