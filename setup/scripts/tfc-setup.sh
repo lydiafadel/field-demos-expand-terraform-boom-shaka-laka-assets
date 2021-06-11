@@ -7,6 +7,7 @@ echo "Please enter your Terraform Cloud organization name."
 read TFC_ORGANIZATION
 echo
 echo "Running Terraform Login to get TFC credential."
+echo "You can generate a new API token in the TFC UI using the URL shown by the `terraform login` command or provide an existing API token."
 echo
 terraform login
 echo
