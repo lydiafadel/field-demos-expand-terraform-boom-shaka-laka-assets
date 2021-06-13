@@ -8,8 +8,8 @@ name: Traditional-App-Deployment
 .center[![:scale 100%](images/after.png)]
 <br><br>
 ---
-name: Intro-to-IAC
-# Introduction to Infra-as-Code (IaC)
+name: Intro-to-PAC
+# Introduction to Policy-as-Code (PaC)
 .center[![:scale 100%](images/policy.png)]
 <br><br>
 ---
@@ -22,5 +22,3 @@ name: Splunk-Integration
 # Splunk Integration
 .center[![:scale 100%](images/splunk.png)]
 <br><br>
-
-
